@@ -1,0 +1,37 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "08fd7a29-f070-4ab8-9d59-6f5ef4c02109",
+      "name": "ROS-notes&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "5aae785d-07ed-4f1c-b455-94d2714d0b67",
+      "purl": "5aae785d-07ed-4f1c-b455-94d2714d0b67",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "1fd048f7-36a7-4b2e-ad77-56ba0a62d867",
+      "purl": "pkg:pypi/numpy@1.23.2",
+      "type": "dependency",
+      "level": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "08fd7a29-f070-4ab8-9d59-6f5ef4c02109",
+      "target": "5aae785d-07ed-4f1c-b455-94d2714d0b67",
+      "type": "depends_on"
+    },
+    {
+      "source": "5aae785d-07ed-4f1c-b455-94d2714d0b67",
+      "target": "1fd048f7-36a7-4b2e-ad77-56ba0a62d867",
+      "type": "depends_on"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "8ac97fc0-79c5-4cdc-b705-bb75796c01b1",
+      "name": "numpy-ros&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "purl": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "1704a462-37b6-4e93-8ff5-6fc6aef94118",
+      "purl": "pkg:pypi/numpy@1.19.5",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "dc34ea0f-0794-4c1e-a3d7-c62fc22ed205",
+      "purl": "pkg:pypi/numpy-quaternion@2021.4.5.14.42.35",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "1d95c34a-8d40-477e-8c51-8575a1224a39",
+      "purl": "pkg:pypi/scipy@1.5.4",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "04384c91-2571-4c41-9477-2ab7b0fa9c8d",
+      "purl": "pkg:pypi/numba@0.53.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "3a179de3-348a-4ab6-8f2d-8e2bfe2072d0",
+      "purl": "pkg:pypi/llvmlite@0.36.0",
+      "type": "dependency",
+      "level": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "8ac97fc0-79c5-4cdc-b705-bb75796c01b1",
+      "target": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "target": "1704a462-37b6-4e93-8ff5-6fc6aef94118",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "target": "dc34ea0f-0794-4c1e-a3d7-c62fc22ed205",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "target": "1d95c34a-8d40-477e-8c51-8575a1224a39",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e79ce8-fa7d-4eb7-8380-83a89967e392",
+      "target": "04384c91-2571-4c41-9477-2ab7b0fa9c8d",
+      "type": "depends_on"
+    },
+    {
+      "source": "04384c91-2571-4c41-9477-2ab7b0fa9c8d",
+      "target": "3a179de3-348a-4ab6-8f2d-8e2bfe2072d0",
+      "type": "depends_on"
+    }
+  ]
+}

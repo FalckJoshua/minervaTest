@@ -1,0 +1,683 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "26b79a16-eae9-48be-9591-0663df0b0baf",
+      "name": "mcp_server_ros_2&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "3203ff8b-105d-4fe6-b7d2-15e9e0f84446",
+      "purl": "3203ff8b-105d-4fe6-b7d2-15e9e0f84446",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "purl": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "purl": "pkg:pypi/mcp-server-ros-2@0.1.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "64b476d4-21db-4484-bba8-2f2e508aba26",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "purl": "pkg:pypi/mcp@1.8.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "aeabed0d-ff4e-41de-a884-01cf7d394567",
+      "purl": "pkg:pypi/numpy@2.2.5",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "ece807c7-f9ea-4cb8-9e42-d10221b9846c",
+      "purl": "pkg:pypi/lark@1.2.2",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "9096a4fa-e2cd-4334-8c09-1870d4bb740c",
+      "purl": "pkg:pypi/numpy@2.2.4",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "purl": "pkg:pypi/mcp@1.6.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "6bbaf334-cea3-4f3c-a742-bfe281dbfa1c",
+      "purl": "pkg:pypi/pyyaml@6.0.2",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "e0b25f35-c7f2-4d19-8a8c-33696a28b2c0",
+      "purl": "pkg:pypi/six@1.17.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "e6e26efc-3175-4c2c-a197-851c3137f959",
+      "purl": "pkg:pypi/pydantic-settings@2.9.1",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "purl": "pkg:pypi/pydantic@2.11.4",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "6445f5f6-f441-46a1-95a4-786ef5b02fbc",
+      "purl": "pkg:pypi/starlette@0.46.2",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "purl": "pkg:pypi/anyio@4.9.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "6d620f21-fc74-4c31-ab15-6e4c3dcc0725",
+      "purl": "pkg:pypi/uvicorn@0.34.2",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "a2015d64-4fae-4302-87c7-f6735a6d73f7",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "b01eb035-f18d-459e-b18f-ba74a491c4a5",
+      "purl": "pkg:pypi/python-multipart@0.0.20",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "50fd34a8-f6c2-4a0e-aeda-768abf0d7584",
+      "purl": "pkg:pypi/sse-starlette@2.3.4",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "378be0b2-c5e5-4132-85a5-5865a262609f",
+      "purl": "pkg:pypi/typer@0.15.3",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "ca91be62-e56d-4b66-909d-55c5ca8c76ff",
+      "purl": "pkg:pypi/httpx-sse@0.4.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "1d8d640f-f966-4735-9c32-f28882e60061",
+      "purl": "pkg:pypi/python-dotenv@1.1.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "e16e2f11-ccb2-41f8-bc51-e1cf3db125fc",
+      "purl": "pkg:pypi/pydantic-settings@2.8.1",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "ce7c2ddb-bce2-4251-ae16-a103f2439f2f",
+      "purl": "pkg:pypi/uvicorn@0.34.0",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "purl": "pkg:pypi/pydantic@2.11.1",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "fc2d12fd-d079-4fe9-befa-c1c8fa525d41",
+      "purl": "pkg:pypi/sse-starlette@2.2.1",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "da983bf1-88cc-4071-963d-1b7188094ce7",
+      "purl": "pkg:pypi/starlette@0.46.1",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "8fd70264-f5aa-4d94-aee9-62024ffc2559",
+      "purl": "pkg:pypi/typer@0.15.2",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "bbd68677-d134-4269-877a-1eb72afe2349",
+      "purl": "pkg:pypi/typing-inspection@0.4.0",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "9cd6b851-b6d8-441e-9350-53ecd451ca46",
+      "purl": "pkg:pypi/typing-extensions@4.13.2",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "6194d54e-a146-4532-a320-f37a223e646b",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "9de033c8-480f-4647-833d-305ac5ac5c9e",
+      "purl": "pkg:pypi/pydantic-core@2.33.2",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "6141df9f-a741-4425-bc39-b964c7a6d3cf",
+      "purl": "pkg:pypi/idna@3.10",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "d6ed20e9-5805-424f-93f6-85c81cf76900",
+      "purl": "pkg:pypi/sniffio@1.3.1",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "57b319f0-a8b1-4ec3-b904-40a834d5442a",
+      "purl": "pkg:pypi/exceptiongroup@1.2.2",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "e18b6dbb-5e4a-467a-a652-0789c532d0c2",
+      "purl": "pkg:pypi/typing-extensions@4.13.0",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "50b3d008-d7a5-44ad-ab78-b68986de00d5",
+      "purl": "pkg:pypi/click@8.1.8",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "347fdaad-a84c-4103-9d90-2148b9980078",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "f081e435-f034-42e9-8167-a1c4deb4a698",
+      "purl": "pkg:pypi/httpcore@1.0.7",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "e89d9247-1c23-43b1-a544-5a45f83aaf38",
+      "purl": "pkg:pypi/certifi@2025.1.31",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "3ad25fe1-e42b-4745-81d3-bade9be53488",
+      "purl": "pkg:pypi/rich@14.0.0",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "1fd926ff-9686-4956-9feb-911ecb311f1c",
+      "purl": "pkg:pypi/shellingham@1.5.4",
+      "type": "dependency",
+      "level": 4
+    },
+    {
+      "id": "f38d8f95-bdd0-4432-950f-88508a7866e2",
+      "purl": "pkg:pypi/h11@0.14.0",
+      "type": "dependency",
+      "level": 5
+    },
+    {
+      "id": "977cb057-58a9-4c0b-8ea2-a1422f872743",
+      "purl": "pkg:pypi/pydantic-core@2.33.0",
+      "type": "dependency",
+      "level": 5
+    },
+    {
+      "id": "66b03b50-24a8-49d0-930f-365f6b3520c3",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "type": "dependency",
+      "level": 5
+    },
+    {
+      "id": "f59eeb24-de02-4952-87b7-2689f843e7fe",
+      "purl": "pkg:pypi/pygments@2.19.1",
+      "type": "dependency",
+      "level": 5
+    },
+    {
+      "id": "bf9ab869-ee62-442e-8701-01fb21888dcc",
+      "purl": "pkg:pypi/markdown-it-py@3.0.0",
+      "type": "dependency",
+      "level": 5
+    },
+    {
+      "id": "cdaaeba7-7efb-4ea7-a91b-d8991918dc28",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "type": "dependency",
+      "level": 6
+    }
+  ],
+  "links": [
+    {
+      "source": "26b79a16-eae9-48be-9591-0663df0b0baf",
+      "target": "3203ff8b-105d-4fe6-b7d2-15e9e0f84446",
+      "type": "depends_on"
+    },
+    {
+      "source": "26b79a16-eae9-48be-9591-0663df0b0baf",
+      "target": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "type": "depends_on"
+    },
+    {
+      "source": "3203ff8b-105d-4fe6-b7d2-15e9e0f84446",
+      "target": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "type": "depends_on"
+    },
+    {
+      "source": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "target": "64b476d4-21db-4484-bba8-2f2e508aba26",
+      "type": "depends_on"
+    },
+    {
+      "source": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "target": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "type": "depends_on"
+    },
+    {
+      "source": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "target": "aeabed0d-ff4e-41de-a884-01cf7d394567",
+      "type": "depends_on"
+    },
+    {
+      "source": "1c017e08-cbd2-4e02-ba17-aeee6a957ed0",
+      "target": "ece807c7-f9ea-4cb8-9e42-d10221b9846c",
+      "type": "depends_on"
+    },
+    {
+      "source": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "target": "9096a4fa-e2cd-4334-8c09-1870d4bb740c",
+      "type": "depends_on"
+    },
+    {
+      "source": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "target": "ece807c7-f9ea-4cb8-9e42-d10221b9846c",
+      "type": "depends_on"
+    },
+    {
+      "source": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "target": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "type": "depends_on"
+    },
+    {
+      "source": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "target": "6bbaf334-cea3-4f3c-a742-bfe281dbfa1c",
+      "type": "depends_on"
+    },
+    {
+      "source": "bbadab4c-4440-428c-b075-3767c4b4e7fa",
+      "target": "64b476d4-21db-4484-bba8-2f2e508aba26",
+      "type": "depends_on"
+    },
+    {
+      "source": "64b476d4-21db-4484-bba8-2f2e508aba26",
+      "target": "e0b25f35-c7f2-4d19-8a8c-33696a28b2c0",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "e6e26efc-3175-4c2c-a197-851c3137f959",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "6445f5f6-f441-46a1-95a4-786ef5b02fbc",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "6d620f21-fc74-4c31-ab15-6e4c3dcc0725",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "a2015d64-4fae-4302-87c7-f6735a6d73f7",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "b01eb035-f18d-459e-b18f-ba74a491c4a5",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "50fd34a8-f6c2-4a0e-aeda-768abf0d7584",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "378be0b2-c5e5-4132-85a5-5865a262609f",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "ca91be62-e56d-4b66-909d-55c5ca8c76ff",
+      "type": "depends_on"
+    },
+    {
+      "source": "48f5a851-6a4a-4b68-aefc-285b7f677205",
+      "target": "1d8d640f-f966-4735-9c32-f28882e60061",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "e16e2f11-ccb2-41f8-bc51-e1cf3db125fc",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "ce7c2ddb-bce2-4251-ae16-a103f2439f2f",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "fc2d12fd-d079-4fe9-befa-c1c8fa525d41",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "da983bf1-88cc-4071-963d-1b7188094ce7",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "ca91be62-e56d-4b66-909d-55c5ca8c76ff",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "a2015d64-4fae-4302-87c7-f6735a6d73f7",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "8fd70264-f5aa-4d94-aee9-62024ffc2559",
+      "type": "depends_on"
+    },
+    {
+      "source": "7573282c-5b5b-459d-8c8d-10284a65f5f0",
+      "target": "1d8d640f-f966-4735-9c32-f28882e60061",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e26efc-3175-4c2c-a197-851c3137f959",
+      "target": "1d8d640f-f966-4735-9c32-f28882e60061",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e26efc-3175-4c2c-a197-851c3137f959",
+      "target": "bbd68677-d134-4269-877a-1eb72afe2349",
+      "type": "depends_on"
+    },
+    {
+      "source": "e6e26efc-3175-4c2c-a197-851c3137f959",
+      "target": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "type": "depends_on"
+    },
+    {
+      "source": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "target": "9cd6b851-b6d8-441e-9350-53ecd451ca46",
+      "type": "depends_on"
+    },
+    {
+      "source": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "target": "bbd68677-d134-4269-877a-1eb72afe2349",
+      "type": "depends_on"
+    },
+    {
+      "source": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "target": "6194d54e-a146-4532-a320-f37a223e646b",
+      "type": "depends_on"
+    },
+    {
+      "source": "84c824cf-9ed9-4054-ae7c-f6b30283232c",
+      "target": "9de033c8-480f-4647-833d-305ac5ac5c9e",
+      "type": "depends_on"
+    },
+    {
+      "source": "6445f5f6-f441-46a1-95a4-786ef5b02fbc",
+      "target": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "type": "depends_on"
+    },
+    {
+      "source": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "target": "6141df9f-a741-4425-bc39-b964c7a6d3cf",
+      "type": "depends_on"
+    },
+    {
+      "source": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "target": "d6ed20e9-5805-424f-93f6-85c81cf76900",
+      "type": "depends_on"
+    },
+    {
+      "source": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "target": "57b319f0-a8b1-4ec3-b904-40a834d5442a",
+      "type": "depends_on"
+    },
+    {
+      "source": "1a4f5db5-62bf-42ed-9dd0-d8749e302394",
+      "target": "e18b6dbb-5e4a-467a-a652-0789c532d0c2",
+      "type": "depends_on"
+    },
+    {
+      "source": "6d620f21-fc74-4c31-ab15-6e4c3dcc0725",
+      "target": "50b3d008-d7a5-44ad-ab78-b68986de00d5",
+      "type": "depends_on"
+    },
+    {
+      "source": "6d620f21-fc74-4c31-ab15-6e4c3dcc0725",
+      "target": "9cd6b851-b6d8-441e-9350-53ecd451ca46",
+      "type": "depends_on"
+    },
+    {
+      "source": "6d620f21-fc74-4c31-ab15-6e4c3dcc0725",
+      "target": "347fdaad-a84c-4103-9d90-2148b9980078",
+      "type": "depends_on"
+    },
+    {
+      "source": "a2015d64-4fae-4302-87c7-f6735a6d73f7",
+      "target": "6141df9f-a741-4425-bc39-b964c7a6d3cf",
+      "type": "depends_on"
+    },
+    {
+      "source": "a2015d64-4fae-4302-87c7-f6735a6d73f7",
+      "target": "f081e435-f034-42e9-8167-a1c4deb4a698",
+      "type": "depends_on"
+    },
+    {
+      "source": "a2015d64-4fae-4302-87c7-f6735a6d73f7",
+      "target": "e89d9247-1c23-43b1-a544-5a45f83aaf38",
+      "type": "depends_on"
+    },
+    {
+      "source": "378be0b2-c5e5-4132-85a5-5865a262609f",
+      "target": "3ad25fe1-e42b-4745-81d3-bade9be53488",
+      "type": "depends_on"
+    },
+    {
+      "source": "378be0b2-c5e5-4132-85a5-5865a262609f",
+      "target": "9cd6b851-b6d8-441e-9350-53ecd451ca46",
+      "type": "depends_on"
+    },
+    {
+      "source": "378be0b2-c5e5-4132-85a5-5865a262609f",
+      "target": "1fd926ff-9686-4956-9feb-911ecb311f1c",
+      "type": "depends_on"
+    },
+    {
+      "source": "378be0b2-c5e5-4132-85a5-5865a262609f",
+      "target": "50b3d008-d7a5-44ad-ab78-b68986de00d5",
+      "type": "depends_on"
+    },
+    {
+      "source": "e16e2f11-ccb2-41f8-bc51-e1cf3db125fc",
+      "target": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "type": "depends_on"
+    },
+    {
+      "source": "ce7c2ddb-bce2-4251-ae16-a103f2439f2f",
+      "target": "e18b6dbb-5e4a-467a-a652-0789c532d0c2",
+      "type": "depends_on"
+    },
+    {
+      "source": "ce7c2ddb-bce2-4251-ae16-a103f2439f2f",
+      "target": "f38d8f95-bdd0-4432-950f-88508a7866e2",
+      "type": "depends_on"
+    },
+    {
+      "source": "ce7c2ddb-bce2-4251-ae16-a103f2439f2f",
+      "target": "50b3d008-d7a5-44ad-ab78-b68986de00d5",
+      "type": "depends_on"
+    },
+    {
+      "source": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "target": "bbd68677-d134-4269-877a-1eb72afe2349",
+      "type": "depends_on"
+    },
+    {
+      "source": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "target": "6194d54e-a146-4532-a320-f37a223e646b",
+      "type": "depends_on"
+    },
+    {
+      "source": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "target": "977cb057-58a9-4c0b-8ea2-a1422f872743",
+      "type": "depends_on"
+    },
+    {
+      "source": "72ff3ecd-9a65-46b9-92fb-8dd88de6fb1a",
+      "target": "e18b6dbb-5e4a-467a-a652-0789c532d0c2",
+      "type": "depends_on"
+    },
+    {
+      "source": "fc2d12fd-d079-4fe9-befa-c1c8fa525d41",
+      "target": "da983bf1-88cc-4071-963d-1b7188094ce7",
+      "type": "depends_on"
+    },
+    {
+      "source": "8fd70264-f5aa-4d94-aee9-62024ffc2559",
+      "target": "e18b6dbb-5e4a-467a-a652-0789c532d0c2",
+      "type": "depends_on"
+    },
+    {
+      "source": "8fd70264-f5aa-4d94-aee9-62024ffc2559",
+      "target": "3ad25fe1-e42b-4745-81d3-bade9be53488",
+      "type": "depends_on"
+    },
+    {
+      "source": "8fd70264-f5aa-4d94-aee9-62024ffc2559",
+      "target": "1fd926ff-9686-4956-9feb-911ecb311f1c",
+      "type": "depends_on"
+    },
+    {
+      "source": "8fd70264-f5aa-4d94-aee9-62024ffc2559",
+      "target": "50b3d008-d7a5-44ad-ab78-b68986de00d5",
+      "type": "depends_on"
+    },
+    {
+      "source": "bbd68677-d134-4269-877a-1eb72afe2349",
+      "target": "9cd6b851-b6d8-441e-9350-53ecd451ca46",
+      "type": "depends_on"
+    },
+    {
+      "source": "50b3d008-d7a5-44ad-ab78-b68986de00d5",
+      "target": "66b03b50-24a8-49d0-930f-365f6b3520c3",
+      "type": "depends_on"
+    },
+    {
+      "source": "f081e435-f034-42e9-8167-a1c4deb4a698",
+      "target": "f38d8f95-bdd0-4432-950f-88508a7866e2",
+      "type": "depends_on"
+    },
+    {
+      "source": "f081e435-f034-42e9-8167-a1c4deb4a698",
+      "target": "e89d9247-1c23-43b1-a544-5a45f83aaf38",
+      "type": "depends_on"
+    },
+    {
+      "source": "3ad25fe1-e42b-4745-81d3-bade9be53488",
+      "target": "f59eeb24-de02-4952-87b7-2689f843e7fe",
+      "type": "depends_on"
+    },
+    {
+      "source": "3ad25fe1-e42b-4745-81d3-bade9be53488",
+      "target": "bf9ab869-ee62-442e-8701-01fb21888dcc",
+      "type": "depends_on"
+    },
+    {
+      "source": "bf9ab869-ee62-442e-8701-01fb21888dcc",
+      "target": "cdaaeba7-7efb-4ea7-a91b-d8991918dc28",
+      "type": "depends_on"
+    }
+  ]
+}

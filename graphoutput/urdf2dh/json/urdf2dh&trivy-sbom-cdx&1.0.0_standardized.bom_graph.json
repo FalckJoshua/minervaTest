@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "6a5ad9ea-c8b1-4f39-a522-e0fc4499b905",
+      "name": "urdf2dh&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "5af75f16-f522-4469-9485-f84ec607a2f0",
+      "purl": "5af75f16-f522-4469-9485-f84ec607a2f0",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "e38b28d5-c127-43d3-9ee4-a57ea75d578c",
+      "purl": "pkg:pypi/nptyping@2.5.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "5625fdf7-34ba-430b-b975-493fc6bbe7ac",
+      "purl": "pkg:pypi/numpy@1.26.4",
+      "type": "dependency",
+      "level": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "6a5ad9ea-c8b1-4f39-a522-e0fc4499b905",
+      "target": "5af75f16-f522-4469-9485-f84ec607a2f0",
+      "type": "depends_on"
+    },
+    {
+      "source": "5af75f16-f522-4469-9485-f84ec607a2f0",
+      "target": "e38b28d5-c127-43d3-9ee4-a57ea75d578c",
+      "type": "depends_on"
+    },
+    {
+      "source": "5af75f16-f522-4469-9485-f84ec607a2f0",
+      "target": "5625fdf7-34ba-430b-b975-493fc6bbe7ac",
+      "type": "depends_on"
+    },
+    {
+      "source": "e38b28d5-c127-43d3-9ee4-a57ea75d578c",
+      "target": "5625fdf7-34ba-430b-b975-493fc6bbe7ac",
+      "type": "depends_on"
+    }
+  ]
+}
