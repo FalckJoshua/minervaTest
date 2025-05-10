@@ -1,0 +1,102 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ca8b346e-368f-4d38-b775-cb515f696e55",
+      "name": "pypcd4&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "9f23760d-0906-4955-ae2f-0ac708995cfd",
+      "purl": "9f23760d-0906-4955-ae2f-0ac708995cfd",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "afa1d1c7-4587-4c0a-837b-0cecca0d57d4",
+      "purl": "pkg:pypi/python-lzf@0.2.6",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "fe6a3767-69e2-4c5f-9054-954886b3b75b",
+      "purl": "pkg:pypi/numpy@1.24.4",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "af6bbbfb-95e6-49e0-ab53-b7844cd9d3f6",
+      "purl": "pkg:pypi/pydantic@2.10.6",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "a0144ef7-3525-47de-b3d6-6ecb7daffaf0",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "af62e7e2-076b-489f-b9f9-b5b872f5acad",
+      "purl": "pkg:pypi/pydantic-core@2.27.2",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "3f8bc092-1842-48f8-9349-aa74c520faa6",
+      "purl": "pkg:pypi/typing-extensions@4.13.2",
+      "type": "dependency",
+      "level": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "ca8b346e-368f-4d38-b775-cb515f696e55",
+      "target": "9f23760d-0906-4955-ae2f-0ac708995cfd",
+      "type": "depends_on"
+    },
+    {
+      "source": "9f23760d-0906-4955-ae2f-0ac708995cfd",
+      "target": "afa1d1c7-4587-4c0a-837b-0cecca0d57d4",
+      "type": "depends_on"
+    },
+    {
+      "source": "9f23760d-0906-4955-ae2f-0ac708995cfd",
+      "target": "fe6a3767-69e2-4c5f-9054-954886b3b75b",
+      "type": "depends_on"
+    },
+    {
+      "source": "9f23760d-0906-4955-ae2f-0ac708995cfd",
+      "target": "af6bbbfb-95e6-49e0-ab53-b7844cd9d3f6",
+      "type": "depends_on"
+    },
+    {
+      "source": "af6bbbfb-95e6-49e0-ab53-b7844cd9d3f6",
+      "target": "a0144ef7-3525-47de-b3d6-6ecb7daffaf0",
+      "type": "depends_on"
+    },
+    {
+      "source": "af6bbbfb-95e6-49e0-ab53-b7844cd9d3f6",
+      "target": "af62e7e2-076b-489f-b9f9-b5b872f5acad",
+      "type": "depends_on"
+    },
+    {
+      "source": "af6bbbfb-95e6-49e0-ab53-b7844cd9d3f6",
+      "target": "3f8bc092-1842-48f8-9349-aa74c520faa6",
+      "type": "depends_on"
+    },
+    {
+      "source": "a0144ef7-3525-47de-b3d6-6ecb7daffaf0",
+      "target": "3f8bc092-1842-48f8-9349-aa74c520faa6",
+      "type": "depends_on"
+    },
+    {
+      "source": "af62e7e2-076b-489f-b9f9-b5b872f5acad",
+      "target": "3f8bc092-1842-48f8-9349-aa74c520faa6",
+      "type": "depends_on"
+    }
+  ]
+}

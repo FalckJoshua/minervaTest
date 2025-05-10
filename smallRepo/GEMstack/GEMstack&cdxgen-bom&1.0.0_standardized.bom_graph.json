@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "094b4efb-170b-4268-9aa6-90caa3eb3fae",
+      "name": "GEMstack&cdxgen-bom",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "828abb85-25ea-45ae-97b7-407a0233116d",
+      "purl": "pkg:pypi/numpy@1.21.1",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "0e6bb60f-dab2-4a56-b892-3a2c2657a44e",
+      "purl": "pkg:pypi/shapely@2.0.7",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "74242209-2108-42e6-89cc-d652709ace1c",
+      "purl": "pkg:pypi/klampt@0.10.1.post1",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "666d9018-9951-4b2b-ab94-cd386642bd66",
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "type": "dependency",
+      "level": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "094b4efb-170b-4268-9aa6-90caa3eb3fae",
+      "target": "828abb85-25ea-45ae-97b7-407a0233116d",
+      "type": "depends_on"
+    },
+    {
+      "source": "094b4efb-170b-4268-9aa6-90caa3eb3fae",
+      "target": "0e6bb60f-dab2-4a56-b892-3a2c2657a44e",
+      "type": "depends_on"
+    },
+    {
+      "source": "094b4efb-170b-4268-9aa6-90caa3eb3fae",
+      "target": "74242209-2108-42e6-89cc-d652709ace1c",
+      "type": "depends_on"
+    },
+    {
+      "source": "094b4efb-170b-4268-9aa6-90caa3eb3fae",
+      "target": "666d9018-9951-4b2b-ab94-cd386642bd66",
+      "type": "depends_on"
+    }
+  ]
+}

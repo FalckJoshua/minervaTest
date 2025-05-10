@@ -1,0 +1,345 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "d205186c-b377-4263-88bb-9ed9b7dca2e5",
+      "name": "GEMstack&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "purl": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "482ec04e-9f60-4f36-b180-a82268825335",
+      "purl": "482ec04e-9f60-4f36-b180-a82268825335",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "ee8faf84-073d-4bc5-834b-d31893dfc9cf",
+      "purl": "pkg:pypi/numpy@1.21.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "3f630e73-3fcb-4849-bf3a-2ee77a9701d6",
+      "purl": "pkg:pypi/shapely@2.0.7",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "95fbdef0-3559-436d-9a60-5f137261880c",
+      "purl": "pkg:pypi/klampt@0.10.1.post1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "fb4fa4b2-3a50-4b58-a0e8-68abb9670bed",
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "b97361db-71d4-4ef5-8137-45603ae65a11",
+      "purl": "pkg:pypi/markupsafe@2.1.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "4b8335ee-1338-4b07-b8d9-229844e48dd1",
+      "purl": "pkg:pypi/snowballstemmer@2.2.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "2153b4ab-f8bd-496c-a8ce-801665c0ab0e",
+      "purl": "pkg:pypi/babel@2.10.3",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "af799b4d-02fc-4eee-8704-fbf8098a7a2e",
+      "purl": "pkg:pypi/imagesize@1.4.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "bc785170-f328-4a4a-afad-f549cd2dc4f6",
+      "purl": "pkg:pypi/sphinxcontrib-devhelp@1.0.2",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "fc7d170c-128e-48e0-b81b-4170083056ee",
+      "purl": "pkg:pypi/sphinx-rtd-theme@1.0.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "c39089c3-7f70-45e0-8855-4df3bc5b5186",
+      "purl": "pkg:pypi/sphinxcontrib-applehelp@1.0.2",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "5e3f7d35-878e-4162-8b39-4cc30134a1ff",
+      "purl": "pkg:pypi/idna@3.3",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "06cc8f26-5cbc-400b-a618-cd484c6add53",
+      "purl": "pkg:pypi/sphinxcontrib-jsmath@1.0.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "33950bee-9104-4705-abcb-6fc03181694f",
+      "purl": "pkg:pypi/sphinxcontrib-qthelp@1.0.3",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "14b2b240-1a07-4c02-8523-d95df3eee004",
+      "purl": "pkg:pypi/alabaster@0.7.12",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "4d871481-5d6f-4a4b-b329-58bcaf5ae0d3",
+      "purl": "pkg:pypi/jinja2@3.1.2",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "c4864591-ddd9-47c6-ac49-d5a41d1ccea2",
+      "purl": "pkg:pypi/sphinxcontrib-htmlhelp@2.0.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "034dcadf-8876-4e1d-b50e-78564f75de2b",
+      "purl": "pkg:pypi/charset-normalizer@2.1.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "0afc17f0-36ea-4d50-8e21-bcc569d36298",
+      "purl": "pkg:pypi/sphinxcontrib-serializinghtml@1.1.5",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "abeef4f7-a6af-482b-8743-db275f6e308b",
+      "purl": "pkg:pypi/pygments@2.12.0",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "f861accf-24a6-47f8-8fb4-daf5746a830e",
+      "purl": "pkg:pypi/packaging@21.3",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "3a3e6ba7-9b36-4c92-a8b2-e5e145931f32",
+      "purl": "pkg:pypi/urllib3@1.26.9",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "fa46be7e-b834-4013-b125-3347894f4fec",
+      "purl": "pkg:pypi/requests@2.28.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "11976f63-2db2-4ced-bfe7-ff58f6cf2f7a",
+      "purl": "pkg:pypi/docutils@0.17.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "3d2509f8-1477-4f97-8d5c-15b2401a0aa6",
+      "purl": "pkg:pypi/sphinx@5.0.2",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "78b9aa3f-9f0a-4990-bba2-d6766af7608b",
+      "purl": "pkg:pypi/pytz@2022.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "3ee0eb11-9068-4d72-a00b-1fdbf0ee47f0",
+      "purl": "pkg:pypi/pyparsing@3.0.9",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "25b39a4b-263c-4fb3-b4db-47159edd0851",
+      "purl": "pkg:pypi/certifi@2022.6.15",
+      "type": "dependency",
+      "level": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "d205186c-b377-4263-88bb-9ed9b7dca2e5",
+      "target": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "type": "depends_on"
+    },
+    {
+      "source": "d205186c-b377-4263-88bb-9ed9b7dca2e5",
+      "target": "482ec04e-9f60-4f36-b180-a82268825335",
+      "type": "depends_on"
+    },
+    {
+      "source": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "target": "ee8faf84-073d-4bc5-834b-d31893dfc9cf",
+      "type": "depends_on"
+    },
+    {
+      "source": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "target": "3f630e73-3fcb-4849-bf3a-2ee77a9701d6",
+      "type": "depends_on"
+    },
+    {
+      "source": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "target": "95fbdef0-3559-436d-9a60-5f137261880c",
+      "type": "depends_on"
+    },
+    {
+      "source": "a15d81c8-9f56-46ca-90fa-704149f68657",
+      "target": "fb4fa4b2-3a50-4b58-a0e8-68abb9670bed",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "b97361db-71d4-4ef5-8137-45603ae65a11",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "4b8335ee-1338-4b07-b8d9-229844e48dd1",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "2153b4ab-f8bd-496c-a8ce-801665c0ab0e",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "af799b4d-02fc-4eee-8704-fbf8098a7a2e",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "bc785170-f328-4a4a-afad-f549cd2dc4f6",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "fc7d170c-128e-48e0-b81b-4170083056ee",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "c39089c3-7f70-45e0-8855-4df3bc5b5186",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "5e3f7d35-878e-4162-8b39-4cc30134a1ff",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "06cc8f26-5cbc-400b-a618-cd484c6add53",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "33950bee-9104-4705-abcb-6fc03181694f",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "14b2b240-1a07-4c02-8523-d95df3eee004",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "4d871481-5d6f-4a4b-b329-58bcaf5ae0d3",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "c4864591-ddd9-47c6-ac49-d5a41d1ccea2",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "034dcadf-8876-4e1d-b50e-78564f75de2b",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "0afc17f0-36ea-4d50-8e21-bcc569d36298",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "abeef4f7-a6af-482b-8743-db275f6e308b",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "f861accf-24a6-47f8-8fb4-daf5746a830e",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "3a3e6ba7-9b36-4c92-a8b2-e5e145931f32",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "fa46be7e-b834-4013-b125-3347894f4fec",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "11976f63-2db2-4ced-bfe7-ff58f6cf2f7a",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "3d2509f8-1477-4f97-8d5c-15b2401a0aa6",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "78b9aa3f-9f0a-4990-bba2-d6766af7608b",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "3ee0eb11-9068-4d72-a00b-1fdbf0ee47f0",
+      "type": "depends_on"
+    },
+    {
+      "source": "482ec04e-9f60-4f36-b180-a82268825335",
+      "target": "25b39a4b-263c-4fb3-b4db-47159edd0851",
+      "type": "depends_on"
+    }
+  ]
+}
