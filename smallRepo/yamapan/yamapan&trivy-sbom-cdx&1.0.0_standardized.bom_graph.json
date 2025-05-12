@@ -1,0 +1,91 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "5d830914-0e7c-4886-bca2-f09bee9a9056",
+      "name": "yamapan&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "c6bf437e-3486-4f32-baef-91abd081f4e3",
+      "purl": "c6bf437e-3486-4f32-baef-91abd081f4e3",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "5f1ff939-4f41-4d20-b3ce-8f67b1b94fb4",
+      "purl": "pkg:pypi/pydantic@2.10.6",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "04ae17e3-13da-4fdd-a13c-29523377e606",
+      "purl": "pkg:pypi/tomli@2.2.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "e67f4118-7e06-4784-83c6-a91e938318ff",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "7969887a-b4d0-46f1-b7ac-348f557a387f",
+      "purl": "pkg:pypi/pydantic-core@2.27.2",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "dc1cf3a7-0896-49a5-b427-7c02d56d30b4",
+      "purl": "pkg:pypi/typing-extensions@4.13.2",
+      "type": "dependency",
+      "level": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "5d830914-0e7c-4886-bca2-f09bee9a9056",
+      "target": "c6bf437e-3486-4f32-baef-91abd081f4e3",
+      "type": "depends_on"
+    },
+    {
+      "source": "c6bf437e-3486-4f32-baef-91abd081f4e3",
+      "target": "5f1ff939-4f41-4d20-b3ce-8f67b1b94fb4",
+      "type": "depends_on"
+    },
+    {
+      "source": "c6bf437e-3486-4f32-baef-91abd081f4e3",
+      "target": "04ae17e3-13da-4fdd-a13c-29523377e606",
+      "type": "depends_on"
+    },
+    {
+      "source": "5f1ff939-4f41-4d20-b3ce-8f67b1b94fb4",
+      "target": "e67f4118-7e06-4784-83c6-a91e938318ff",
+      "type": "depends_on"
+    },
+    {
+      "source": "5f1ff939-4f41-4d20-b3ce-8f67b1b94fb4",
+      "target": "7969887a-b4d0-46f1-b7ac-348f557a387f",
+      "type": "depends_on"
+    },
+    {
+      "source": "5f1ff939-4f41-4d20-b3ce-8f67b1b94fb4",
+      "target": "dc1cf3a7-0896-49a5-b427-7c02d56d30b4",
+      "type": "depends_on"
+    },
+    {
+      "source": "e67f4118-7e06-4784-83c6-a91e938318ff",
+      "target": "dc1cf3a7-0896-49a5-b427-7c02d56d30b4",
+      "type": "depends_on"
+    },
+    {
+      "source": "7969887a-b4d0-46f1-b7ac-348f557a387f",
+      "target": "dc1cf3a7-0896-49a5-b427-7c02d56d30b4",
+      "type": "depends_on"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "9713fa86-4769-4801-b3c8-bb6d33ee1b5c",
+      "name": "ros_awsiot&trivy-sbom-cdx",
+      "type": "root",
+      "level": 0
+    },
+    {
+      "id": "369fe092-ef0e-4d9c-8d58-610ad043b995",
+      "purl": "369fe092-ef0e-4d9c-8d58-610ad043b995",
+      "type": "dependency",
+      "level": 1
+    },
+    {
+      "id": "7a73de09-4ca7-46b7-b995-02a58b4c23f7",
+      "purl": "pkg:pypi/awsiotclient@0.1.1",
+      "type": "dependency",
+      "level": 2
+    },
+    {
+      "id": "5b820c82-3c9b-4b1b-a7d7-692880738f18",
+      "purl": "pkg:pypi/awsiotsdk@1.7.1",
+      "type": "dependency",
+      "level": 3
+    },
+    {
+      "id": "c7a80bdd-5ee7-46c3-a817-ff65200c996c",
+      "purl": "pkg:pypi/awscrt@0.12.1",
+      "type": "dependency",
+      "level": 4
+    }
+  ],
+  "links": [
+    {
+      "source": "9713fa86-4769-4801-b3c8-bb6d33ee1b5c",
+      "target": "369fe092-ef0e-4d9c-8d58-610ad043b995",
+      "type": "depends_on"
+    },
+    {
+      "source": "369fe092-ef0e-4d9c-8d58-610ad043b995",
+      "target": "7a73de09-4ca7-46b7-b995-02a58b4c23f7",
+      "type": "depends_on"
+    },
+    {
+      "source": "7a73de09-4ca7-46b7-b995-02a58b4c23f7",
+      "target": "5b820c82-3c9b-4b1b-a7d7-692880738f18",
+      "type": "depends_on"
+    },
+    {
+      "source": "5b820c82-3c9b-4b1b-a7d7-692880738f18",
+      "target": "c7a80bdd-5ee7-46c3-a817-ff65200c996c",
+      "type": "depends_on"
+    }
+  ]
+}
